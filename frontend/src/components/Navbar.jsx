@@ -6,7 +6,6 @@ const Navbar = () =>{
         <div className="mx-auto max-w-6xl p-4">
             <div className="flex justify-between items-center">
                 <h1 className="text-3xl font-mono font-bold text-primary tracking-tighter">Diario</h1>
-                <h6 className="font-mono text-sm font-bold tracking-tighter text-green-800">share your emotions, anonymously!</h6>
                 <div className="flex items-center gap-4">
                     <Link to={"/create"} className="btn btn-primary rounded-lg">
                         <PlusIcon className="size-5" />
